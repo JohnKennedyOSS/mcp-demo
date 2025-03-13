@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  mcp-aiven:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - AIVEN_BASE_URL=${AIVEN_BASE_URL:-https://api.aiven.io}
+      - AIVEN_PROJECT_NAME=${AIVEN_PROJECT_NAME}
+      - AIVEN_TOKEN=${AIVEN_TOKEN}
+    restart: unless-stopped 
