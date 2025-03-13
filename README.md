@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MCP Aiven Docker
 
 A simple Docker container for the MCP Aiven server.
@@ -136,3 +137,7 @@ The following environment variables are used to configure the ClickHouse connect
 * `AIVEN_BASE_URL`: The Aiven API url
 * `AIVEN_PROJECT_NAME`: The default project name
 * `AIVEN_TOKEN`: The authentication token
+=======
+# mcp-demo
+Demo private repo for testing mcp hosting on Aiven. 
+>>>>>>> f706d63c5bdea44f6df73ee84e3cc139b92319f0
